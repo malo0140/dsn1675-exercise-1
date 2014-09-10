@@ -8,6 +8,8 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+    
+    background-color: #ccc;
 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
@@ -25,12 +27,42 @@ body {
   padding: 0;
 }
 
-img {
-  display: block;
-  width: 95%;
+.dino {
+    overflow: hidden;
+    background-color: #fff;
 }
 
-figure {
+img {
+  display: block;
+  width: 100%;
+}
+
+.img {
+    margin: 0;
+    padding: 0;
+    position:relative; 
+}
+
+.imgcap {
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+}
+
+.info {
+    float: left;
+    padding: 1rem;
+    width: 33.3333%;
+    border-right: 1px solid #ccc;
+}
+
+.info:last-child {
+    border-right: 0;
+}
+    
+
+/*figure {
     position: relative;
     float:
 }
@@ -59,6 +91,6 @@ h2 {
     font-size: 12pt;
 }
 
-    
+*/    
 
 
