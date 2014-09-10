@@ -27,5 +27,30 @@ body {
 
 img {
   display: block;
-  width: 100%;
+  width: 110%;
 }
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+}
+
+
+div {
+    float: left;
+    text-align: center;    
+}
+
+h2 { 
+    font-family: sans-serif;
+    color: gray;
+    font-size: 12pt;
+}
+
+.1 {
+    
+
+
